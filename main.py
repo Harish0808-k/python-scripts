@@ -3,6 +3,7 @@ from utilities import (
     generate_refunds_data,
     generate_sales_data,
     generate_stores_data,
+    generate_supervisors_data,
     write_csv,
 )
 
@@ -81,6 +82,16 @@ def main():
             "updated_at",
         ],
         refunds_data,
+    )
+
+    supervisors_data = generate_supervisors_data()
+    write_csv(
+        "supervisors.csv",
+        [
+            "id",
+            "name",
+        ],
+        supervisors_data,
     )
 
 

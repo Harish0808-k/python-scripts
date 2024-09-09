@@ -178,6 +178,18 @@ def generate_refunds_data(num_records, store_ids, product_ids):
     return data
 
 
+def generate_supervisors_data():
+    data = []
+    for i in range(1, 101):
+        data.append(
+            [
+                i,
+                faker.name(),
+            ]
+        )
+    return data
+
+
 def write_csv(filename, header, data):
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)

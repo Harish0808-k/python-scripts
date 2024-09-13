@@ -1,0 +1,11 @@
+,HouseID,Region,Type,Price,Area_sqft,Bedrooms,Bathrooms,YearBuilt,Condition,HasGarage,HasGarden,SellerRating
+0,1,East,Villa,379365.0,1684.0,3.0,1,1993,Good,False,True,2.427013306774357
+1,2,West,Villa,114820.0,3885.0,4.0,2,1957,Renovated,False,False,2.123738038749523
+2,3,North,Villa,,4617.0,4.0,2,1996,Good,False,False,3.170784332632994
+3,4,East,Villa,371879.0,3404.0,1.0,2,1984,New,True,True,1.5636968998990506
+4,5,East,Condo,244027.0,974.0,3.0,1,1985,Old,False,False,4.208787923016159
+5,6,West,Apartment,377069.0,,5.0,2,1999,Good,True,True,1.2982025747190833
+6,7,North,Condo,302709.0,3058.0,3.0,1,1953,Good,False,False,4.947547746402069
+7,8,North,Condo,249041.0,2547.0,,2,1951,Renovated,False,True,4.08897907718663
+8,9,East,Condo,317455.0,3247.0,1.0,3,1955,Good,True,True,1.7948627261366896
+9,10,South,Villa,153355.0,1475.0,2.0,3,2003,Good,False,False,1.0220884684944096

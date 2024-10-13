@@ -29,7 +29,9 @@ def get_stores():
 
 
 if __name__ == "__main__":
-    with open("products.csv", 'w', newline='') as products_data:
+    path = "./promotions_and_campaign_data_integration/csv_files"
+
+    with open(path+"/products_data.csv", 'w', newline='') as products_data:
         writer = csv.DictWriter(products_data,
                                 fieldnames=[
                                     'product_id', 'product_name'
@@ -38,7 +40,7 @@ if __name__ == "__main__":
         writer.writeheader()
         writer.writerows(get_products())
 
-    with open("stores.csv", 'w', newline='') as stores_data:
+    with open(path+"/stores_data.csv", 'w', newline='') as stores_data:
         writer = csv.DictWriter(stores_data,
                                 fieldnames=[
                                     "store_id", "store_name"
